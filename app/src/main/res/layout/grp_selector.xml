@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.barbosa.Settings"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group"
+        android:textSize="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CS_1"
+                android:text="CS 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CS_2"
+                android:text="CS 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CS_3"
+                android:text="CS 3"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CS_4"
+                android:text="CS 4"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="IT_1"
+                android:text="IT 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="IT_2"
+                android:text="IT 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EC_1"
+                android:text="EC 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EC_2"
+                android:text="EC 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EC_3"
+                android:text="EC 3"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EC_4"
+                android:text="EC 4"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="ME_1"
+                android:text="ME 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="ME_2"
+                android:text="ME 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="ME_3"
+                android:text="ME 3"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="ME_4"
+                android:text="ME 4"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="PIE_1"
+                android:text="PIE 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="PIE_2"
+                android:text="PIE 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CE_1"
+                android:text="CE 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="CE_2"
+                android:text="CE 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="BioTech_1"
+                android:text="Bio-Tech 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="BioTech_2"
+                android:text="Bio-Tech 2"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EE_1"
+                android:text="EE 1"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:onClick="EE_2"
+                android:text="EE 2"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onMain"
+        android:text="back" />
+
+</LinearLayout>
